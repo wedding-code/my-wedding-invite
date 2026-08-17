@@ -4,4 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/my-wedding-invite/', // Tambahkan baris ini sesuai nama repository GitHub Anda
 })
